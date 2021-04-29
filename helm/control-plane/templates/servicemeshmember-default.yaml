@@ -1,0 +1,11 @@
+---
+apiVersion: maistra.io/v1
+kind: ServiceMeshMember
+metadata:
+  name: default
+  namespace: serverless-test
+spec:
+  controlPlaneRef:
+    name: basic
+    namespace: {{ .Release.Namespace }}
+...

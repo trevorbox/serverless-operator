@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: serverless-test
+  labels:
+    knative.openshift.io/system-namespace: 'true'
